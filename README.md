@@ -363,8 +363,10 @@ For this pipeline we will use following usecase :
     <li> Under Cluster Configurations -> OpenShift Cluster : Click on "Add" & Select "Jenkins"</li>
     <ul>
       <li>Kind : OpenShift Token for OpenShift Client Plugin</li>
+      <li>Create a service account : oc create sa jenkins 2. get the token 3.oc describe sa jenkins</li>
       <li>Token : Paste Jenkins Service Account Token Value (Hint : oc sa get-token jenkins -n my-project-dev)</li>
       <li>ID : jenkins-service-account</li>
+      
       <li>Click on Add</li>
     </ul>
     <li> Credentials : Select "jenkins-service-account" from drop down list </li>
