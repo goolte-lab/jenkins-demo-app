@@ -366,7 +366,8 @@ For this pipeline we will use following usecase :
       <li>Create a service account : oc create sa jenkins 2. get the token 3.oc describe sa jenkins</li>
       <li>Token : Paste Jenkins Service Account Token Value (Hint : oc sa get-token jenkins -n my-project-dev)</li>
       <li>ID : jenkins-service-account</li>
-      
+  </ul>
+  <ul>
       <li>Click on Add</li>
      <li> Credentials : Select "jenkins-service-account" from drop down list </li>
     <li> Click on "Apply" & "Save" </li>
