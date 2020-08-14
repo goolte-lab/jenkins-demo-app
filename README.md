@@ -368,8 +368,7 @@ For this pipeline we will use following usecase :
       <li>ID : jenkins-service-account</li>
       
       <li>Click on Add</li>
-    </ul>
-    <li> Credentials : Select "jenkins-service-account" from drop down list </li>
+     <li> Credentials : Select "jenkins-service-account" from drop down list </li>
     <li> Click on "Apply" & "Save" </li>
   </ul>  
   
